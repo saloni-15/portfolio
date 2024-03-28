@@ -4,7 +4,7 @@ export default function Button({ buttonText }) {
   return (
     <button
       id="navigate-button"
-      class="flex items-center border-[3px] text-xl font-medium rounded-full px-8 py-2"
+      class="flex items-center text-xl font-medium rounded-full "
     >
       {buttonText} {<IoArrowForward className="ml-2" />}
     </button>

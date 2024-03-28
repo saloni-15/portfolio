@@ -16,6 +16,7 @@ import sql from "../assets/sql2.svg";
 import git from "../assets/git.svg";
 import github from "../assets/github.svg";
 import jira from "../assets/jira2.svg";
+import confluence from "../assets/confluence.svg";
 import postman from "../assets/postman.svg";
 import vscode from "../assets/vscode.svg";
 import selenium from "../assets/selenium.svg";
@@ -54,9 +55,9 @@ export default function SkillsContent() {
           <SkillIcon icon={github} title="Github" />
           <SkillIcon icon={postman} title="Postman" />
           <SkillIcon icon={jira} title="Jira" />
+          <SkillIcon icon={confluence} title="Confluence" />
           <SkillIcon icon={selenium} title="Selenium" />
           <SkillIcon icon={vscode} title="VS Code" />
-          <SkillIcon icon={sql} title="MySQL" />
         </div>
       </div>
     </>
