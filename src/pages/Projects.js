@@ -3,7 +3,7 @@ import ProjectsContent from "../data/Projects";
 
 export default function ProjectsPage() {
   return (
-    <div className="px-32 pt-24 flex flex-col">
+    <div className="px-20 pt-16 flex flex-col">
       <PageTitle title="Projects" />
       <ProjectsContent />
     </div>

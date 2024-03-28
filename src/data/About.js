@@ -1,7 +1,7 @@
 export default function AboutContent() {
   return (
     <>
-      <p className="text-xl font-medium text-sky-900 h-[20rem]">
+      <p className="text-[1.15rem] font-medium text-dark-blue h-[18rem]">
         I am Saloni Subedi, a dedicated fullstack developer with a passion for
         creating innovative solutions.
         <br />

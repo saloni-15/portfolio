@@ -4,12 +4,13 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans;
 }
 
 aside {
-  background-image: linear-gradient(0deg, #182743 -20%, #21779b);
+  background-image: linear-gradient(0deg, #182743 -2%, #21779b);
 }
 
 #navigate-button, #project-button {
@@ -28,7 +29,7 @@ aside {
 #work-experience-points{
   font-size: large;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .project-card{

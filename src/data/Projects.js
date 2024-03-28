@@ -5,7 +5,7 @@ import project4 from "../assets/project4.jpg";
 import ProjectCard from "../components/UI/ProjectCard";
 export default function ProjectsContent() {
   return (
-    <div className="h-[20rem]">
+    <div className="h-[18rem]">
       <div className="flex flex-col">
         <div className="flex flex-row">
           <ProjectCard

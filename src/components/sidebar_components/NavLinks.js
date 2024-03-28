@@ -3,9 +3,9 @@ export default function NavLinks() {
   const location = useLocation();
   const activePath = location.pathname;
   let navClasses =
-    "border-opacity-50 text-slate-100 text-opacity-85 hover:border-[24px] hover:border-opacity-30 hover:text-white border-slate-100 border-[1px] rounded-full w-[255px] h-12 flex items-center justify-center mb-6 relative";
+    "border-opacity-50 text-slate-100 text-sm text-opacity-85 hover:border-[20px] hover:border-opacity-30 hover:text-white border-slate-100 border-[1px] rounded-full w-[220px] h-10 flex items-center justify-center mb-5 relative";
   let activeClass =
-    "border-[24px] text-blue-900 font-[550] border-white rounded-full w-[255px] h-12 flex items-center justify-center mb-6 relative";
+    "border-[20px] text-dark-blue text-sm font-[550] border-white rounded-full w-[220px] h-10 flex items-center justify-center mb-5 relative";
   return (
     <>
       <nav className="mt-2">
@@ -50,9 +50,9 @@ export default function NavLinks() {
           </li>
         </ul>
       </nav>
-      <button className="text-lg mt-6 w-[21rem] border-slate-100 border-opacity-10 border-[24px] h-12 rounded-full flex items-center justify-center">
+      <button className="text-md mt-2 w-[18rem] border-slate-100 border-opacity-10 border-[24px] h-10 rounded-full flex items-center justify-center">
         <a
-          className="underline opacity-70"
+          className="underline opacity-60"
           href="https://drive.google.com/file/d/1ToitonHt5d6tV8LwwlbIHdJGbBFzFBTy/view"
           target="_blank"
           rel="noreferrer"

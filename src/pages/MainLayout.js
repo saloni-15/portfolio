@@ -4,7 +4,7 @@ import SideNavbar from "../components/SideNavbar";
 export default function MainLayout({ children }) {
   return (
     <div className="flex h-screen">
-      <div className="w-[29.5rem]">
+      <div className="w-[27rem]">
         <SideNavbar />
       </div>
       <div className="flex-1 overflow-y-auto">

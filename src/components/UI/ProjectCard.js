@@ -9,7 +9,7 @@ export default function ProjectCard({
   liveUrl,
 }) {
   return (
-    <div className="project-card border-4 border-slate-200 w-1/2 bg-light-blue bg-opacity-15 m-2">
+    <div className="m-2 h-50 project-card border-4 border-slate-200 w-1/2 bg-light-blue bg-opacity-15">
       <div className="overlay h-60 flex flex-row items-center justify-center">
         <ProjectButton codeUrl={codeUrl} liveUrl={liveUrl} />
       </div>
@@ -20,14 +20,14 @@ export default function ProjectCard({
           alt="image1"
         />
 
-        <div className="m-4">
-          <p className="font-semibold text-xl underline">{title}</p>
-          <p className="mt-4 text-[1rem]">{description}</p>
-          <p className="mt-4">
+        <div className="m-3">
+          <p className="font-semibold text-lg underline">{title}</p>
+          <p className="mt-3 text-sm">{description}</p>
+          <p className="mt-3">
             <span className="font-semibold text-sm text-slate-900 text-opacity-50">
               Tech Used-
             </span>{" "}
-            <span className=" font-medium text-sm ">{techstack}</span>
+            <span className=" font-medium text-xs ">{techstack}</span>
           </p>
         </div>
       </div>

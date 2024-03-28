@@ -5,7 +5,7 @@ import ExperienceContent from "../data/Experience";
 
 export default function ExperiencePage() {
   return (
-    <div className="px-32 pt-24 flex flex-col">
+    <div className="px-20 pt-16 flex flex-col">
       <PageTitle title="Work Experience" />
       <ExperienceContent
         company="Informatica"

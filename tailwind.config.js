@@ -22,10 +22,10 @@ module.exports = {
       },
     },
   },
-  safelist: [
-    {
-      pattern: /./,
-    },
-  ],
+  // safelist: [
+  //   {
+  //     pattern: /./,
+  //   },
+  // ],
   plugins: [],
 };

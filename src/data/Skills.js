@@ -26,7 +26,7 @@ import SkillIcon from "../components/UI/SkillIcon";
 export default function SkillsContent() {
   return (
     <>
-      <div className="h-[20rem]">
+      <div className="h-[18rem]">
         <SkillsTitle title="Tech Stack" />
         {/*tech stack*/}
         <div className="flex flex-col">
@@ -39,7 +39,7 @@ export default function SkillsContent() {
             <SkillIcon icon={html} title="HTML" />
             <SkillIcon icon={css} title="CSS" />
           </div>
-          <div className="flex flex-row items-center justify-between mb-8">
+          <div className="flex flex-row items-center justify-between mb-6">
             <SkillIcon icon={react} title="ReactJS" />
             <SkillIcon icon={node} title="NodeJS" />
             <SkillIcon icon={express} title="ExpressJS" />
